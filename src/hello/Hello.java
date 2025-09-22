@@ -5,7 +5,7 @@ public class Hello {
       System.out.println("checking ngrok");
     System.out.println("ngrok is not working");
     System.out.println("is it working");
-    System.out.println("doing masterslave")
+    System.out.println("doing masterslave");
     
     
     
