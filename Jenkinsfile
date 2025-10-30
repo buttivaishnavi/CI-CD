@@ -9,7 +9,7 @@ pipeline {
             }
         }
         stage('Windows Agent Stage') {
-            agent { label 'local-win' }
+            agent { label 'win' }
             steps {
                 bat '''echo Running on AGENT'''
             }
@@ -23,7 +23,7 @@ pipeline {
                     }
                 }
                 stage('Agent Lane') {
-                    agent { label 'local-win' }
+                    agent { label 'win' }
                     steps {
                         bat "echo Hello from AGENT in parallel"
                     }
